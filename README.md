@@ -2,6 +2,7 @@
 David´s final project for the course
 
 //-------------------------------------------------------------------------------------
+
 Introducción:
 
 El objetivo principal de este proyecto es crear una herramienta útil y práctica 
@@ -25,26 +26,32 @@ Idea del proyecto: Se me ocurrió un día revisando los ejercicios de Acceso a D
 Desarrollo del proyecto:
 
    Requisitos funcionales: 
-      *Registro / logeo usuario *Función de comparación *Guardar comparaciones *Revisar Historial de comparaciones
+      *Registro / logeo usuario.
+      *Función de obtención de los datos. 
+      *Guardar los datos. 
+      *Revisar Historial de comparaciones.
 
-   Requisito no funcional: *Proyecto adaptable a diversos dispositivos, de forma horizontal y vertical
+   Requisito no funcional: 
+      *Proyecto adaptable a diversos dispositivos, de forma horizontal y vertical
 
-   Modelo Entidad-Relación: Usuario: Atributos -> (ID, Nombre, Email, PassWord*) *Búsqueda: Atributos -> ()
+   Modelo Entidad-Relación: 
+      *Usuario: Atributos -> (ID, Nombre, Email, PassWord*) 
+      *Búsqueda: Atributos -> ()
         -> Opcional
 
-    El atributo Búsqueda tiene una relación reflexiva porque una comparación siempre se tiene que hacer por 2 búsquedas.
+   El atributo Búsqueda tiene una relación reflexiva porque una comparación siempre se tiene que hacer por 2 búsquedas.
 
-    El usuario realiza comparaciones.
+   El usuario realiza comparaciones.
 
-    La comparación se compone de 2 búsquedas.
+   La comparación se compone de 2 búsquedas.
 
-    Diagrama de clases: *Clase Base de Datos ->
+   Diagrama de clases: *Clase Base de Datos ->
 
-    *Clase Usuario ->
+   *Clase Usuario ->
 
-    *Clase Historial ->
+   *Clase Historial ->
 
-    *Clase Comparación ->
+   *Clase Comparación ->
 
-    *Clase Búsqueda ->
+   *Clase Búsqueda ->
 
