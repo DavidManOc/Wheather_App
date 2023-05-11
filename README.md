@@ -19,7 +19,7 @@ Algunos de ellos incluyen:
 
 //-------------------------------------------------------------------------------------
 
-Idea del proyecto: Se me ocurrió un día revisando los ejercicios de Acceso a Datos, ya que en clase hicimos un ejercicio de obtener los datos meteorológicos (de la AEMET) del día siguiente de una ciudad concreta.
+Idea del proyecto: Surgió un día revisando los ejercicios de Acceso a Datos, ya que en clase hicimos un ejercicio de obtener los datos meteorológicos (de la AEMET) del día siguiente de una ciudad concreta.
 
 //-------------------------------------------------------------------------------------
 
@@ -35,23 +35,22 @@ Desarrollo del proyecto:
       *Proyecto adaptable a diversos dispositivos, de forma horizontal y vertical
 
    Modelo Entidad-Relación: 
-      *Usuario: Atributos -> (ID, Nombre, Email, PassWord*) 
-      *Búsqueda: Atributos -> ()
-        -> Opcional
+      *Usuario: Atributos -> (ID, Nombre, Email, PassWord) 
+      *Búsqueda: Atributos -> (Temperatura máxima y mínima, humedad, viento, precipitación, nieve, sensación térmica y el estado del cielo)
+        
+//-------------------------------------------------------------------------------------
 
-   El atributo Búsqueda tiene una relación reflexiva porque una comparación siempre se tiene que hacer por 2 búsquedas.
+   Previo a mostrar los datos, hay que especificar el municipio sobre el que quieres realizar la búsqueda.
 
-   El usuario realiza comparaciones.
+   Se han almacenado en archivos .csv las Comunidades Autónomas, Provincias y Municipios de España.
 
-   La comparación se compone de 2 búsquedas.
+   Filtrado de municipios: 
+       *Se usan spinners para cada apartado (Comunidades Autónomas, Provincias y Municipios)
+       *En el spinner de las comunidades, se muestran todas las comunidades y ciudades autonómicas de España.
+       *En el spinner de las provincias, se muestran las provicias que pertenecen a su Comunidad Autónoma.
+       *En el spinner de los municipios, se muestran todos los municipios de la provincia. 
 
-   Diagrama de clases: *Clase Base de Datos ->
+//-------------------------------------------------------------------------------------
 
-   *Clase Usuario ->
-
-   *Clase Historial ->
-
-   *Clase Comparación ->
-
-   *Clase Búsqueda ->
+   Todos los datos de los usuarios están alamcenados en una base de datos de FireBase
 
