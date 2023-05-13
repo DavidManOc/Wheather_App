@@ -46,11 +46,8 @@ Desarrollo del proyecto:
 
    Filtrado de municipios: 
        *Se usan spinners para cada apartado (Comunidades Autónomas, Provincias y Municipios)
-       
        *En el spinner de las comunidades, se muestran todas las comunidades y ciudades autonómicas de España.
-       
        *En el spinner de las provincias, se muestran las provicias que pertenecen a su Comunidad Autónoma.
-       
        *En el spinner de los municipios, se muestran todos los municipios de la provincia. 
 
 //-------------------------------------------------------------------------------------
