@@ -26,10 +26,14 @@ Idea del proyecto: Surgió un día revisando los ejercicios de Acceso a Datos, y
 Desarrollo del proyecto:
 
    Requisitos funcionales: 
-      *Registro / logeo usuario.
-      *Función de obtención de los datos. 
-      *Guardar los datos. 
-      *Revisar Historial de comparaciones.
+   
+   *Registro / logeo usuario.
+   
+   *Función de obtención de los datos. 
+   
+   *Guardar los datos. 
+   
+   *Revisar Historial de comparaciones.
 
    Requisito no funcional: 
       *Proyecto adaptable a diversos dispositivos, de forma horizontal y vertical
